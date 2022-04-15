@@ -1,3 +1,4 @@
+import graphics
 
 def add(n1, n2):
   return n1 + num2
@@ -15,6 +16,9 @@ def divide(n1, n2):
     return n1 / n2
   else:
     return None
+
+print(graphics.logo)
+
 def calculator():
   should_continue = True
 
